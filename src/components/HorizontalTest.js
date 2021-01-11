@@ -3,6 +3,7 @@ import LocomotiveScroll from "locomotive-scroll";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid, Typography } from "@material-ui/core/";
 
+import Hero from "./Hero";
 import Antonio from "../assets/TM_Antonio.png";
 import Isabelle from "../assets/TM_Isabelle.jpg";
 import Cami from "../assets/TM_Cami.png";
@@ -27,6 +28,7 @@ export default function HorizontalTest() {
       </div>
       <div data-scroll-container ref={scrollRef}>
         <div className="gallery">
+          <Hero />
           <figure className="gallery-item">
             <div className="gallery-item-img">
               <img src={Constanze1} alt="model" className={classes.image} />
@@ -87,14 +89,6 @@ export default function HorizontalTest() {
               </figcaption>
             </div>
           </figure>
-          <div class="gallery__text">
-            <span class="gallery__text-inner" data-scroll data-scroll-speed="3">
-              Tom
-            </span>
-            <span data-scroll data-scroll-speed="1" class="gallery__text-inner">
-              Mitchell
-            </span>
-          </div>
           <figure className="gallery-item">
             <div className="gallery-item-img">
               <img src={Constanze1} alt="model" className={classes.image} />
