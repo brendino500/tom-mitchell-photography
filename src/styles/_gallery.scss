@@ -68,7 +68,7 @@
 .gallery__text {
   font-family: "Gentium Book Basic", serif;
   font-weight: 800;
-  font-style: italic;
+  // font-style: italic;
   align-self: center;
 }
 
@@ -110,11 +110,11 @@
   font-size: 20vw;
   line-height: 0.8;
   margin: 0 10vw 0 14vw;
-  text-transform: lowercase;
+  // text-transform: lowercase;
   color: var(--color-gallery-title);
   color: transparent;
-  -webkit-text-stroke: 1px #978c77;
-  text-stroke: 1px #978c77;
+  -webkit-text-stroke: 1px #a6a6a4;
+  text-stroke: 1px #a6a6a4;
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
 }
