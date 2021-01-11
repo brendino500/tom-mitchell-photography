@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import LocomotiveScroll from "locomotive-scroll";
+import Grid from "@material-ui/core/Grid";
 
 export default function Main() {
   const scrollRef = React.createRef();
