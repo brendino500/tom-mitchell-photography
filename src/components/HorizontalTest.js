@@ -3,11 +3,13 @@ import LocomotiveScroll from "locomotive-scroll";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid, Typography } from "@material-ui/core/";
 
+import ImageLayout from "./ImageLayout";
 import Hero from "./Hero";
 import Antonio from "../assets/TM_Antonio.png";
 import Isabelle from "../assets/TM_Isabelle.jpg";
 import Cami from "../assets/TM_Cami.png";
 import Constanze1 from "../assets/TM_Constanze1.jpg";
+import Cindy from "../assets/TM_Cindy.png";
 
 export default function HorizontalTest() {
   const classes = useStyles();
@@ -29,6 +31,12 @@ export default function HorizontalTest() {
       <div data-scroll-container ref={scrollRef}>
         <div className="gallery">
           <Hero />
+          <ImageLayout
+            name="Cindy"
+            imgClassName={classes.image}
+            number="02"
+            imgSrc={Cindy}
+          />
           <figure className="gallery-item">
             <div className="gallery-item-img">
               <img src={Constanze1} alt="model" className={classes.image} />
