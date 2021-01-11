@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import LocomotiveScroll from "locomotive-scroll";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid, Typography } from "@material-ui/core/";
+import Fade from "react-reveal/Fade";
 
 import ImageLayout from "./ImageLayout";
 import Title from "./Title";
@@ -36,7 +37,10 @@ export default function HorizontalTest() {
       <Title />
       <div data-scroll-container ref={scrollRef}>
         <div className="gallery">
-          <Hero />
+          <Fade right>
+            <Hero />
+          </Fade>
+
           <ImageLayout
             name="Constanze"
             imgClassName={classes.image}
