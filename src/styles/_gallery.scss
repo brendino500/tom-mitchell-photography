@@ -28,6 +28,10 @@
   transform-origin: 50% 100%;
 }
 
+.img-fade {
+  width: 29rem;
+}
+
 .gallery__item-imginner {
   background-size: cover;
   background-position: 50% 0;
@@ -121,4 +125,17 @@
 
 .gallery__text-inner {
   display: block;
+}
+
+.gallery__text-hero {
+  font-size: 20vw;
+  line-height: 0.8;
+  margin: 28vh 10vw 0 14vw;
+  // text-transform: lowercase;
+  color: var(--color-gallery-title);
+  color: transparent;
+  -webkit-text-stroke: 1px #d2d2cf;
+  text-stroke: 1px #a6a6a4;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
 }

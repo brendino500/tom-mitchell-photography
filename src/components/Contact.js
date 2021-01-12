@@ -1,16 +1,14 @@
 import React from "react";
 
-const Hero = () => {
+export default function Contact() {
   return (
-    <div class="gallery__text-hero">
+    <div class="gallery__text">
       <span class="gallery__text-inner" data-scroll data-scroll-speed="3">
-        Tom
+        Contact
       </span>
       <span data-scroll data-scroll-speed="1" class="gallery__text-inner">
-        Mitchell
+        Me
       </span>
     </div>
   );
-};
-
-export default Hero;
+}
