@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function Hero() {
+const Hero = () => {
   return (
-    <div class="gallery__text">
+    <div class="gallery__text-hero">
       <span class="gallery__text-inner" data-scroll data-scroll-speed="3">
         Tom
       </span>
@@ -11,4 +11,6 @@ export default function Hero() {
       </span>
     </div>
   );
-}
+};
+
+export default Hero;

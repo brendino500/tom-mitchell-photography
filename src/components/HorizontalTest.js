@@ -7,7 +7,9 @@ import Fade from "react-reveal/Fade";
 import ImageLayout from "./ImageLayout";
 import Title from "./Title";
 import Hero from "./Hero";
-import ColorTitle from "./ColorTitle";
+import Contact from "./Contact";
+import ContactInfo from "./ContactInfo";
+
 import Antonio from "../assets/TM_Antonio.png";
 import Isabelle from "../assets/TM_Isabelle.jpg";
 import Cami from "../assets/TM_Cami.png";
@@ -85,7 +87,7 @@ export default function HorizontalTest() {
             number="07"
             imgSrc={Seb1}
           />
-          <ColorTitle />
+
           <ImageLayout
             name="Isabelle"
             imgClassName={classes.image}
@@ -110,6 +112,10 @@ export default function HorizontalTest() {
             number="11"
             imgSrc={Constanze2}
           />
+          <Contact />
+          <Fade>
+            <ContactInfo />
+          </Fade>
         </div>
       </div>
     </>
